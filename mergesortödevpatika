@@ -1,0 +1,25 @@
+
+2 ye böl 
+[16, 21, 11]  [8, 12, 22]
+
+sol-sağ diye ayır
+[16] [21, 11]
+[8] [12, 22]
+
+ikilileri sol sağ diye ayır
+[21][11][12][22]
+
+birleştir sıralı olarak 
+[11, 21][12, 22]
+
+birleştir sıralı larak
+[16]+[11, 21] = [11, 16, 21]
+
+[8]+[12, 22]=[8, 12, 22]
+
+birleştir sıralı olarak
+[11, 16, 21]+[8, 12, 22]=[8, 11, 12, 16, 21, 22]
+
+ son hali = [8, 11, 12, 16, 21, 22] 
+
+bigO gösterim O(nlogn).
